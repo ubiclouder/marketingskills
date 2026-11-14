@@ -7,7 +7,7 @@ A/B testing and experimentation platform with a REST API for managing projects, 
 | Integration | Available | Notes |
 |-------------|-----------|-------|
 | API | ✓ | Projects, Experiments, Campaigns, Audiences, Results |
-| MCP | - | Not available |
+| MCP | ✓ | Official server ([help article](https://support.optimizely.com/hc/en-us/articles/45320607594893)), checked 2026-10-27 |
 | CLI | ✓ | [optimizely.js](../clis/optimizely.js) |
 | SDK | ✓ | JavaScript, Python, Ruby, Java, Go, C#, PHP, React, Swift, Android |
 
@@ -164,8 +164,8 @@ GET https://api.optimizely.com/v2/pages?project_id={project_id}
 
 ## Relevant Skills
 
-- ab-test-setup
-- page-cro
+- ab-testing
+- cro
 - landing-page
 - personalization
-- analytics-tracking
+- analytics
